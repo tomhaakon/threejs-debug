@@ -28,3 +28,13 @@ body {
   overflow-wrap: break-word;
   opacity: 70%;
 }
+#debug {
+  position: absolute;
+  left: 1em;
+  top: 1em;
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  font-family: monospace;
+  pointer-events: none;
+}
